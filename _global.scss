@@ -13,7 +13,18 @@
             display: none;
         }
         .ma-gallery-wall-item {
-            @include vw-convert-pc(margin-bottom, 16);
+            @include vw-convert-pc(margin-bottom, 19);
+            &__text {
+                display: block;
+            }
+        }
+        .#{$component-name}__more {
+            @include vw-convert-pc(margin-top, 18);
+        }
+    }
+    &.is-hide-txt2 {
+        .ma-gallery-wall-item {
+            @include vw-convert-pc(margin-bottom, 17);
             &__text {
                display: none;
             }
