@@ -38,6 +38,17 @@
             @include vw-convert-pc(margin-top, 17);
         }
     }
+    &.is-hide-txt4 {
+        .ma-gallery-wall-item {
+            @include vw-convert-pc(margin-bottom, 16);
+            &__text {
+                display: none;
+            }
+        }
+        .#{$component-name}__more {
+            @include vw-convert-pc(margin-top, 17);
+        }
+    }
     &.s-bg-gray {
         background-color: #f5f5f5;
     }
