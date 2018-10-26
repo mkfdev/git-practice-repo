@@ -5,6 +5,9 @@
     letter-spacing: -5px;
     text-align: center;
     box-sizing: border-box;
+    &.cherry-pick-test{
+        display:block;
+    }
     &.is-hide-txt {
         .text-commit {
             display: none;
