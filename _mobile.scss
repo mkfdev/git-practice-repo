@@ -11,6 +11,22 @@
                 @include vw-convert-mo(margin-top, 33);
             }
         }
+        &.is-hide-txt2 {
+            .ma-gallery-wall-item {
+                @include vw-convert-mo(margin-bottom, 8);
+            }
+            .#{$component-name}__more {
+                @include vw-convert-mo(margin-top, 33);
+            }
+        }
+        &.is-hide-txt3 {
+            .ma-gallery-wall-item {
+                @include vw-convert-mo(margin-bottom, 8);
+            }
+            .#{$component-name}__more {
+                @include vw-convert-mo(margin-top, 33);
+            }
+        }
         &__more {
             @include vw-convert-mo(margin-top, 41);
             .s-btn-text {
