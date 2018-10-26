@@ -7,13 +7,13 @@
     box-sizing: border-box;
     &.is-hide-txt {
         .ma-gallery-wall-item {
-            @include vw-convert-pc(margin-bottom, 16);
+            @include vw-convert-pc(margin-bottom, 13);
             &__text {
-                display: none;
+                display: block;
             }
         }
         .#{$component-name}__more {
-            @include vw-convert-pc(margin-top, 17);
+            @include vw-convert-pc(margin-top, 13);
         }
     }
     &.is-hide-txt2 {
