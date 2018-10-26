@@ -7,18 +7,18 @@
     box-sizing: border-box;
     &.is-hide-txt {
         .ma-gallery-wall-item {
-            @include vw-convert-pc(margin-bottom, 13);
+            @include vw-convert-pc(margin-bottom, 14);
             &__text {
                 display: block;
             }
         }
         .#{$component-name}__more {
-            @include vw-convert-pc(margin-top, 13);
+            @include vw-convert-pc(margin-top, 11);
         }
     }
     &.is-hide-txt2 {
         .ma-gallery-wall-item {
-            @include vw-convert-pc(margin-bottom, 16);
+            @include vw-convert-pc(margin-bottom, 6);
             &__text {
                 display: none;
             }
