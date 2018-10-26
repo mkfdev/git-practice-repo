@@ -6,6 +6,9 @@
     text-align: center;
     box-sizing: border-box;
     &.is-hide-txt {
+        .text-commit {
+            display: none;
+        }
         .ma-gallery-wall-item {
             @include vw-convert-pc(margin-bottom, 14);
             &__text {
@@ -42,7 +45,7 @@
         .ma-gallery-wall-item {
             @include vw-convert-pc(margin-bottom, 16);
             &__text {
-                display: none;
+               display: none;
             }
         }
         .#{$component-name}__more {
